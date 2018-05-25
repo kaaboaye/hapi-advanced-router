@@ -1,0 +1,15 @@
+{
+  "verbose": true,
+  "watch": [
+    "src/**/*.ts",
+    "src/**/*.html",
+    "src/**/*.css",
+    "src/**/*.js",
+    "../../src/**/*.ts"
+  ],
+  "ext": "ts,html,css,js",
+  "ignore": [
+    "src/**/*.spec.ts"
+  ],
+  "exec": "TSLINTOUT=$(node_modules/tslint/bin/tslint -p .) ts-node --cacheDirectory ./tmp"
+}

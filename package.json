@@ -1,0 +1,16 @@
+{
+  "name": "hapi-advanced-router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/hapi": "^17.0.12",
+    "case": "^1.5.5",
+    "typescript": "^2.8.3"
+  }
+}

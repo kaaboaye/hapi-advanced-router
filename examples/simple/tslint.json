@@ -1,0 +1,63 @@
+{
+  "rules": {
+    "no-floating-promises": true,
+    "await-promise": true,
+    "no-conditional-assignment": true,
+    "no-unused-expression": true,
+    "no-unused-variable": true,
+    "space-before-function-paren": [true, {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "class-name": true,
+    "curly": true,
+    "eofline": true,
+    "forin": true,
+    "indent": [
+      true,
+      "spaces"
+    ],
+    "label-position": true,
+    "max-line-length": [
+      true,
+      140
+    ],
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-construct": true,
+    "no-debugger": true,
+    "no-duplicate-variable": true,
+    "no-empty": false,
+    "no-eval": true,
+    "no-string-literal": false,
+    "no-use-before-declare": true,
+    "no-trailing-whitespace": true,
+    "no-any": true,
+    "one-line": [
+      true,
+      "check-open-brace",
+      "check-catch",
+      "check-else",
+      "check-whitespace"
+    ],
+    "radix": true,
+    "semicolon": [true],
+    "triple-equals": [
+      true,
+      "allow-null-check"
+    ],
+    "variable-name": false,
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-module",
+      "check-operator",
+      "check-separator",
+      "check-type",
+      "check-typecast"
+    ]
+  }
+}

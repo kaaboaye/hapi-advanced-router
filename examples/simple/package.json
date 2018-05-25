@@ -1,0 +1,19 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/hapi": "^17.0.12",
+    "hapi": "^17.5.0",
+    "hapi-advanced-router": "file:../..",
+    "ts-node": "^6.0.5",
+    "tslint": "^5.10.0"
+  }
+}
